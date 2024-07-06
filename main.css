@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    background-color: #FF9F68;
+    color: #3B0905;
+}
+.body-container{
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    flex-wrap: wrap;
+}
+
+.main-container{
+    width: 400px;
+    height: 399px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    border: 10px solid #B01C12;
+}
+.box{
+    width: 131px;
+    height: 131px;
+    border: 1px solid #3B0905;
+    transition: border 0.3s, transform 0.3s;
+    background-color: rgba(156, 198, 192, 0.7);
+}
+.box:focus{
+    border: 10px solid rgba(255, 255, 0, 0.68);
+}
+.name-container{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 400px;
+    height: 160px;
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: #FFCE4F;
+    border-radius: 10px;
+
+    h2{
+        margin-left: 10px;
+    }
+}
+.question{
+    margin-left: 30px;
+    display: block;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+
+    input{
+        font-size: 17px;
+        border-radius: 5px;
+        outline: none;
+    }
+}
+#btn{
+    font-size: 17px;
+    padding: 5px 10px;
+    width: 100px;
+    background-color: #B01C12;
+    color: #F3CEFF;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    z-index: 10;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-left: 10px;
+}
+#btn:hover{
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+.box-q{
+    display: flex;
+}
+input {
+    outline: none;
+}
+#line{
+    background-color: red;
+    position: absolute;
+}
+.playAgain{
+    display: inline-block;
+    position: absolute;
+    top: 130px;
+    left: 720px;
+    font-size: 20px;
+    background-color: #B01C12;
+    color: #F3CEFF;
+    outline: none;
+    border: none;
+    padding: 6px 25px;
+    border-radius: 8px;
+    z-index: 10;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.playAgain:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+.clicked{
+    width: 600px;
+    height: 60px;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 30px;
+    margin-left: 670px;
+}
+.player{
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 60px;
+    margin-right: 30px;
+    margin-left: 700px;
+}
+#nowPlaying{
+    font-size: 18px;
+    margin-left: 10px;
+}
+hr{
+    border-color: #3B0905;
+    opacity: 60%;
+}
