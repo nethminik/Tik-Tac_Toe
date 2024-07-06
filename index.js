@@ -7,8 +7,8 @@ let clickCount=0;
 let onGoingPlayer;
 let clickNumbers=0;
 let nowPlay =$("#nowPlaying");
-let round ='/—Pngtree—pink solid cardboard round frame_3772538.png';
-let cross = '/—Pngtree—red cross vector icon no_6234858.png';
+let round ='Tik-Tac_Toe/—Pngtree—pink solid cardboard round frame_3772538.png';
+let cross = 'Tik-Tac_Toe/—Pngtree—red cross vector icon no_6234858.png';
 
 $("#btn").click(()=>{             // submit players' names
     let name = $("#inputID").val().toUpperCase();
